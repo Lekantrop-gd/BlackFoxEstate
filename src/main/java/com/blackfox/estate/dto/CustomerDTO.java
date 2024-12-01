@@ -1,4 +1,8 @@
 package com.blackfox.estate.dto;
 
-public class CustomerDTO {
-}
+public record CustomerDTO(
+        Long id,
+        String name,
+        String email,
+        String phoneNumber
+) {}

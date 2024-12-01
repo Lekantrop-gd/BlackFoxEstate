@@ -1,4 +1,9 @@
 package com.blackfox.estate.dto;
 
-public class BookingDTO {
-}
+public record BookingDTO(
+        Long id,
+        Long customerId,
+        Long hotelRoomId,
+        String checkInDate,
+        String checkOutDate
+) {}

@@ -1,4 +1,9 @@
 package com.blackfox.estate.dto;
 
-public class HotelRoomDTO {
-}
+public record HotelRoomDTO(
+        Long id,
+        String roomNumber,
+        String roomType,
+        int capacity,
+        double price
+) {}
